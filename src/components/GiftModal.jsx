@@ -32,7 +32,7 @@ export default function GiftModal({ gift, onClose }) {
                 animate="visible"
                 exit="hidden"
             >
-                <Confetti width={width} height={height} numberOfPieces={250} recycle={false} />
+                <Confetti width={width} height={height} numberOfPieces={250} recycle={false}   colors={['#ff0a54', '#ff477e', '#ff7096', '#ff85a1', '#fbb1bd']} />
                 <motion.div className={ModalStyles.modalContent} variants={modalVariants}>
                     {gift.animation && (
                         <Lottie animationData={gift.animation} loop={true} style={{ height: 200 }} />

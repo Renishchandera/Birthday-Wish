@@ -43,3 +43,28 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+.toolTip
+{
+    background-color: rgb(240, 193, 247);
+    color: rgb(252, 76, 255);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 10rem;
+    margin: 0.5rem auto;
+}
+.toolTipArrow
+{
+    position: relative;
+    bottom: -2px;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: transparent transparent rgb(240, 193, 247) transparent;
+    z-index: 3;
+}

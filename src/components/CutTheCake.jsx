@@ -8,6 +8,7 @@ import SpecialStyles from '../css/SpecialStyles.module.css';
 import GeneralStyles from '../css/GeneralStyles.module.css';
 import GiftModal from '../components/GiftModal';
 import { useState } from 'react';
+import ToolTip from './ToolTip';
 
 export default function CutTheCake()
 {
@@ -28,6 +29,7 @@ export default function CutTheCake()
     return (
         <section>
             <h3 className={TextStyles.sectionTitle}>Here's The Sweet Cake For You</h3>
+            <ToolTip tip={"Hope Your Day Is As Sweet As This Cake!"}></ToolTip>
             <div className={GeneralStyles.cutTheCakeSectionDiv}>
                  <Lottie
                 animationData={celebrationAnimation}

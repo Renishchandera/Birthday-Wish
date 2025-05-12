@@ -20,6 +20,11 @@ function App() {
       <GiftSection></GiftSection>
       <Divider></Divider>
       <FinalMessage></FinalMessage>
+      <Divider></Divider>
+      {/* Copy right reserved symbol below with name and details of developer*/}
+      <p className={GeneralStyles.copyRightSection}>
+        &copy; 2025 - Renish Chandera 
+      </p>
     </div>
   );
 }
