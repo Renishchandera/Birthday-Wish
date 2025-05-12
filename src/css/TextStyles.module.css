@@ -1,0 +1,39 @@
+.mainWish
+{
+    color: rgb(246, 224, 195);
+    text-align: center;
+    color: '#ff477e';
+    font-family: 'Dancing Script', cursive;
+}
+.personName
+{
+    color: rgb(246, 224, 195);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.sectionTitle
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1rem;
+}
+.clickInstruction
+{
+    font-size: 0.5rem;
+        text-align: center;
+    color: antiquewhite;
+}
+.memoryTitle
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(46,27,40);
+}
+.memoryDescription
+{
+    font-size: 0.8rem;
+    min-height: 2rem;
+        font-size: 0.75rem;
+        color: rgb(56,38,51);
+        font-weight: 600;
+}
