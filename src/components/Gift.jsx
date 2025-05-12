@@ -10,7 +10,6 @@ export default function Gift({onClick}) {
                 loop={true}
                 style={{ width: 100, margin: '0 auto', height: 80 }}
             />
-            <h4 className={TextStyles.clickInstruction}>Click On Gift To Open</h4>
         </div>
     );
 }
