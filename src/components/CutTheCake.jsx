@@ -9,25 +9,37 @@ import GeneralStyles from '../css/GeneralStyles.module.css';
 import GiftModal from '../components/GiftModal';
 import { useState } from 'react';
 import ToolTip from './ToolTip';
+import {useRef} from 'react';
 
 export default function CutTheCake()
 {
     const [cakeCut, setCakeCut] = useState(null);
+    const audioRef = useRef(null);
     const modalInfo = {
         animation: cakeCutAnimation,
         title: "Happy Birthday To You!",
-        description: "Wishing you the very very beautiful year, and may all your dream come true.",
+        description: "Wishing you the very very beautiful year, and may this birthday bring you even more confidence, laughter and joy. You deserve the sweetest things in life - and this cake is the first slice 🍰. (You still owe me a real party) Birthdays come and go, but awesome people like you stays in the heart forever.",
     }
     const handleCutTheCake = () => {
         
         console.log("Cake Cut!");
         setCakeCut(modalInfo);
+        if(audioRef.current)
+        {
+            audioRef.current.play();
+        }
     }
     const closeModal = () => {
         setCakeCut(null);
+        if(audioRef.current)
+        {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+        }
     }
     return (
         <section>
+            <audio ref={audioRef} src='../music/Namrata.mp3' preload="auto"></audio>
             <h3 className={TextStyles.sectionTitle}>Here's The Sweet Cake For You</h3>
             <ToolTip tip={"Hope Your Day Is As Sweet As This Cake!"}></ToolTip>
             <div className={GeneralStyles.cutTheCakeSectionDiv}>
