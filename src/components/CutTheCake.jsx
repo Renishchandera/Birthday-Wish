@@ -24,22 +24,13 @@ export default function CutTheCake()
         
         console.log("Cake Cut!");
         setCakeCut(modalInfo);
-        if(audioRef.current)
-        {
-            audioRef.current.play();
-        }
     }
     const closeModal = () => {
         setCakeCut(null);
-        if(audioRef.current)
-        {
-            audioRef.current.pause();
-            audioRef.current.currentTime = 0;
-        }
     }
     return (
         <section>
-            <audio ref={audioRef} src='../music/Namrata.mp3' preload="auto"></audio>
+            {/* <audio ref={audioRef} src='../music/Namrata.mp3' preload="auto"></audio> */}
             <h3 className={TextStyles.sectionTitle}>Here's The Sweet Cake For You</h3>
             <ToolTip tip={"Hope Your Day Is As Sweet As This Cake!"}></ToolTip>
             <div className={GeneralStyles.cutTheCakeSectionDiv}>
