@@ -46,8 +46,8 @@
 
 .toolTip
 {
-    background-color: rgb(240, 193, 247);
-    color: rgb(252, 76, 255);
+    background-color: rgba(255, 254, 223, 0.587);
+    color: rgb(91, 91, 91);
     padding: 0.5rem;
     border-radius: 0.5rem;
     z-index: 1;

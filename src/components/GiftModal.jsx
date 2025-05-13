@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import Confetti from "react-confetti";
 import Lottie from "lottie-react";
 import { useWindowSize } from "@react-hook/window-size";
+import Divider from './Divider';
 //import "../css/Modal.css"; // additional optional styles
 
-export default function GiftModal({ gift, onClose }) {
+export default function GiftModal({ gift, onClose, isSpecialMessage=false}) {
     const [width, height] = useWindowSize();
 
     const backdropVariants = {
@@ -38,7 +39,14 @@ export default function GiftModal({ gift, onClose }) {
                         <Lottie animationData={gift.animation} loop={true} style={{ height: 200 }} />
                     )}
                     <h2 className={ModalStyles.modalTitle}>{gift.title}</h2>
-                    <p className={ModalStyles.modalDescription}>{gift.description}</p>
+                    {!isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description1}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description2}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description3}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description4}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description5}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description6}</p>}
+                    {isSpecialMessage && <p className={ModalStyles.modalDescriptionSpecial}>{gift.description7}</p>}
                     <button className={ModalStyles.modalCloseBtn} onClick={onClose}>Close</button>
                 </motion.div>
             </motion.div>
