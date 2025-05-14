@@ -8,7 +8,7 @@ import celebrationAnimation from '../animations/Animation - 1746978299430.json';
 const memories = [
   {
     title: '6th Grade',
-    description: 'When I first met the confident hurricane named Namrata.',
+    description: 'When I first met the confident girl named Namrata.',
     image: personImage,
     //framer motion animate element coming from right and left
     animation: {

@@ -32,14 +32,8 @@ function App() {
       </motion.div>
 
       <Divider></Divider>
-      <motion.div
-        initial={{ scale: 0.5, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.9, type: 'spring', bounce: 0.4 }}
-        viewport={{ once: true , amount: 0.5}}
-      >
+
         <CutTheCake />
-      </motion.div>
 
       <Divider></Divider>
       <motion.div

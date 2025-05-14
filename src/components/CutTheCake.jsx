@@ -1,6 +1,6 @@
 import TextStyles from '../css/TextStyles.module.css';
 import Lottie from 'lottie-react';
-import {motion} from 'framer-motion';
+// import {motion} from 'framer-motion';
 import cakeAnimation from '../animations/cake';
 import cakeCutAnimation from '../animations/cakecut.json';
 import celebrationAnimation from '../animations/celebration.json';
@@ -9,16 +9,16 @@ import GeneralStyles from '../css/GeneralStyles.module.css';
 import GiftModal from '../components/GiftModal';
 import { useState } from 'react';
 import ToolTip from './ToolTip';
-import {useRef} from 'react';
+// import {useRef} from 'react';
 
 export default function CutTheCake()
 {
     const [cakeCut, setCakeCut] = useState(null);
-    const audioRef = useRef(null);
+    // const audioRef = useRef(null);
     const modalInfo = {
         animation: cakeCutAnimation,
         title: "Happy Birthday To You!",
-        description: "Wishing you the very very beautiful year, and may this birthday bring you even more confidence, laughter and joy. You deserve the sweetest things in life - and this cake is the first slice 🍰. (You still owe me a real party) Birthdays come and go, but awesome people like you stays in the heart forever.",
+        description: "Wishing you the very very beautiful year, and may this birthday bring you even more confidence, laughter and joy. You deserve the sweetest things in life - and this cake is the first slice 🍰. (You still owe me a real party) Birthdays come and go, but awesome people like you stays in the heart forever.❤️",
     }
     const handleCutTheCake = () => {
         

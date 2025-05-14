@@ -11,10 +11,10 @@ export default function FinalMessage()
     const modalInfo = {
         title: "Just a Few Words I’ve Been Meaning to Say...💕",
         description1: "Even after all these years of silence and hundreds of kilometers between us, one random Instagram follow brought back all the warmth — the fun, the arguments, and those endless midnight conversations.",
-        description2: "I don’t say this often, but talking to you genuinely makes my day better. Every. Single. Time.",
-        description3: "You’ve still got that same confidence and chaos I remember from 6th grade… and honestly, I enjoy it even more now.",
-        description4: "From 6th-grade silence to Insta nonsense, somehow, you’ve become the best part of my most random days.",
-        description5: "I don’t know how much you miss our chats — but I miss annoying you way more than I probably should.",
+        description2: "I don’t say this often, but talking to you genuinely makes my day better, Every Single Time.",
+        description3: "You’ve still got that same confidence and chaos I remember from 6th class… and honestly, I enjoy it even more now.",
+        description4: "From 6th-class silence to Insta nonsense, somehow, you’ve become the best part of my most random days.",
+        description5: "I don’t know how much you miss our chats — but I miss annoying you way more than I should.",
         description6: "Once again, Happiest Birthday, Namrata❤️",
         description7: "Always stay as confident, crazy, and amazing as you are.",
     }

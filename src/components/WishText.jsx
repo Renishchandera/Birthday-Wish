@@ -1,7 +1,7 @@
 import TextStyles from '../css/TextStyles.module.css';
 import Confetti from 'react-confetti';
-import Lottie from 'lottie-react';
-import birthdayAnimation from '../animations/Animation - 1746978299430.json'; 
+// import Lottie from 'lottie-react';
+// import birthdayAnimation from '../animations/Animation - 1746978299430.json'; 
 import { useWindowSize } from '@react-hook/window-size'; 
 
 export default function Wish() {

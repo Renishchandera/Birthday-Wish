@@ -16,7 +16,7 @@ export default function GiftSection() {
     return (
         <section>
             <h3 className={TextStyles.sectionTitle}>Here's Your GIFTs 🎁</h3>
-            <h4 className={TextStyles.clickInstruction}>(Tap On Gift To Open)</h4>
+            <h4 className={TextStyles.clickInstruction}>(Tap On Gifts To Open)</h4>
             {/* map torugh gifts */}
             <div className={GeneralStyles.giftSectionDiv}>
             {gifts.map((gift, index) => (

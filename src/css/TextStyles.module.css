@@ -4,6 +4,7 @@
     text-align: center;
     color: '#ff477e';
     font-family: 'Dancing Script', cursive;
+    font-weight: 900;
 }
 .personName
 {
@@ -19,7 +20,7 @@
 }
 .clickInstruction
 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
         text-align: center;
     color: antiquewhite;
 }
