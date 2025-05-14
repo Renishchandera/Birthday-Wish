@@ -17,8 +17,8 @@
 .modalContent {
   background: rgba(253, 212, 244, 0.828);
   border-radius: 20px;
-  height: 90%;
-  overflow-y: auto;
+  height: 94%;
+  overflow-y: scroll;
   padding: 2rem 3rem;
   text-align: center;
   max-width: 90%;
